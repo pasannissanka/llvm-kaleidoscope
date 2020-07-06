@@ -139,10 +139,34 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="lexer.cpp" />
+    <ClCompile Include="BinaryExprAST.cpp" />
+    <ClCompile Include="CallExprAST.cpp" />
+    <ClCompile Include="ExprAST.cpp" />
+    <ClCompile Include="FunctionAST.cpp" />
+    <ClCompile Include="Lexer.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NumberExprAST.cpp" />
+    <ClCompile Include="Parser.cpp" />
+    <ClCompile Include="PrototypeAST.cpp" />
+    <ClCompile Include="VariableExprAST.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lexer.h" />
+    <ClInclude Include="BinaryExprAST.h" />
+    <ClInclude Include="CallExprAST.h" />
+    <ClInclude Include="ExprAST.h" />
+    <ClInclude Include="FunctionAST.h" />
+    <ClInclude Include="Lexer.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="PrototypeAST.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Token.h" />
+    <ClInclude Include="NumberExprAST.h" />
+    <ClInclude Include="Parser.h" />
+    <ClInclude Include="VariableExprAST.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="llvm-kaleidoscope.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
